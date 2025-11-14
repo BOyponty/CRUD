@@ -37,7 +37,7 @@ h2{
 }
 input, select{
     width: 100%;
-    padding: 12%;
+    padding: 12px;
     background:#eee;
     border-radius: 6px;
     border: none;
@@ -51,7 +51,7 @@ input, select{
 
 button{
       width: 100%;
-    padding: 12%;
+    padding: 12px;
     background:#7494ec;
     border-radius: 6px;
     border: none;
