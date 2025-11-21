@@ -1,44 +1,51 @@
 @import url('https//fonts.googleapis.com/css2?familly=Poppins:wight@400;500;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins",serif;
+    font-family: "Poppins", serif;
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right,#e2e2e2,#c9d6ff);
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
     color: #333;
 
 }
-.container{
+
+.container {
     margin: 0 15px;
 }
-.form-box{
+
+.form-box {
     width: 100%;
     max-width: 450px;
     padding: 30px;
     background: #fff;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: none;
 }
 
-.form-box.active{
+.form-box.active {
     display: block;
-    }
-h2{
-    font-size:34px;
+}
+
+h2 {
+    font-size: 34px;
     text-align: center;
     margin-bottom: 20px;
 }
-input, select{
+
+input,
+select {
     width: 100%;
     padding: 12px;
-    background:#eee;
+    background: #eee;
     border-radius: 6px;
     border: none;
     outline: none;
@@ -49,10 +56,10 @@ input, select{
 }
 
 
-button{
-      width: 100%;
+button {
+    width: 100%;
     padding: 12px;
-    background:#7494ec;
+    background: #7494ec;
     border-radius: 6px;
     border: none;
     cursor: pointer;
@@ -65,29 +72,47 @@ button{
 }
 
 button:hover {
-background: #6884d3;
+    background: #6884d3;
 }
 
-p{
+p {
     font-size: 14.5px;
     text-align: center;
     margin-bottom: 10px;
 }
 
-p a{
+p a {
     color: #7494ec;
     text-decoration: none;
 }
 
-p a:hover{
+p a:hover {
     text-decoration: underline;
 }
-.error-message{
+
+.error-message {
     padding: 12px;
     background: #f8d7da;
     border-radius: 6px;
     font-size: 16px;
-    color:#a428;
+    color: #a428;
     text-align: center;
     margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+span {
+    color: #7494ec;
+}
+
+.box p{
+    font-size: 22px;
+}
+.box button{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
 }
